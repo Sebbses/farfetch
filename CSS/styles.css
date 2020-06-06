@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', sans-serif!important;
+  font-family: 'Archivo', sans-serif!important;
 }
 
 html {
@@ -25,13 +25,6 @@ html {
   }
   .navbar {
       margin-bottom:0;
-    }
-
-    .jumbotron {
-      background: url("/farfetch/Images/Header_1.jpg") no-repeat center center;
-      background-size: cover;
-      padding-top: 20%;
-      padding-bottom: 20%;
     }
 
 
@@ -64,6 +57,11 @@ html {
 
  }
 
-.row img{
+.feather{
   margin-top: 17px;
+}
+
+.press{
+    max-width: 100%;
+    max-height: 100%;
 }
