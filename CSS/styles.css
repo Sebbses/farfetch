@@ -1,5 +1,5 @@
 body {
-  font-family: 'Archivo', sans-serif!important;
+  font-family: 'Open Sans', sans-serif!important;
 }
 
 html {
@@ -46,6 +46,7 @@ html {
 
    a:hover {
      text-decoration: none;
+     color: red;
    }
 
    .top-buffer {
@@ -53,7 +54,7 @@ html {
  }
 
  .spotify {
-   background-color: black;
+   background-color: #4B3D60;
 
  }
 
@@ -64,4 +65,13 @@ html {
 .press{
     max-width: 100%;
     max-height: 100%;
+}
+
+
+.info{
+    background-color: #FAFBBD;
+}
+
+#andra{
+  text-shadow: 2px 2px 4px #000000;
 }

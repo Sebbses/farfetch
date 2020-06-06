@@ -12,8 +12,8 @@
     <title>farfetch'd | Official Website ‐</title>
 
     <!--CSS -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,italic">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -23,34 +23,24 @@
   <body>
 
 <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark spotify">
-      <a class="navbar-brand" href="#">farfetch'd</a>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #152852"; id="top">
+      <a class="navbar-brand">farfetch'd</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Bio</a>
+            <a class="nav-link" href="#Bio">Bio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Spotify</a>
+            <a class="nav-link" href="#andra">Spotify</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              More
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Merchandise</a>
-              <a class="dropdown-item" href="#">Extras</a>
-              <a class="dropdown-item" href="#">Media</a>
-            </div>
           </li>
         </ul>
       </div>
@@ -58,13 +48,15 @@
 
   <!-- Page content -->
   <!-- Duo info -->
-  <div class="conatiner-fluid">
+  <div class="conatiner-fluid info">
   <div class="row">
     <div class="col">
       <img class="img-fluid float-right feather" src="/farfetch/Images/logo-feather-without-stroke-100.png" alt="feather">
     </div>
     <div class="col-8">
-      <h1 class=" display-4 feather text-center">farfetch'd</h1>
+      <h1 class=" display-4 feather text-center">
+        <i>farfetch'd</i>
+      </h1>
     </div>
     <div class="col">
       <img class="img-fluid float-left feather" src="/farfetch/Images/logo-feather-without-stroke-100.png" alt="feather">
@@ -76,7 +68,7 @@
 <hr>
 
     <h3 class="text-center">
-      <small class="text-muted">Biography</small>
+      <small class="text-muted" id="Bio">Biography</small>
     </h3>
 
 <div class="row">
@@ -87,7 +79,7 @@
     <p class="lead">farfetch’d is a melodic deep house, disco frisco bathing duo born and raised in the long-lost woods of Sweden.
        Finding each other one night in the northern auroran light the spirits of music became aligned. Now their quest for illuminating
        electronic comfortmusic has started. Wherever you may find yourself, on a mediterranean beach, in a moonlit groove at 5 AM or in
-       the murderous plains of office desks, farfetch'd will be there </p>
+       the murderous plains of office desks, farfetch'd will be there. </p>
   </div>
 </div>
 
@@ -95,12 +87,26 @@
 
 <div class= "top-buffer spotify">
   <div class="container">
-    <h2 class="text-center">
-      <small class="text-muted">spotify</small>
-    </h2>
-    <div class='embed-container'>
-        <iframe src='https://embed.spotify.com/?uri=spotify:artist:5xQaB2JfKU3pi6IqRsHy4G' frameborder='0' allowtransparency='true'></iframe>
+    <h1 class="feather text-center text-light" id="andra">
+      <small>spotify</small>
+    </h1>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class='embed-container'>
+            <iframe src='https://embed.spotify.com/?uri=spotify:artist:5xQaB2JfKU3pi6IqRsHy4G' frameborder='0' allowtransparency='true'></iframe>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <img class="press" src="/farfetch/Images/press-2.jpg" alt="press">
+      </div>
     </div>
+
+
+
+
+
+
+
 
   </div>
 
