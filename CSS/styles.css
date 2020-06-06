@@ -2,6 +2,10 @@ body {
   font-family: 'Lato', sans-serif!important;
 }
 
+html {
+  font-size: clamp(16px, 4vw, 22px);
+}
+
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -59,3 +63,7 @@ body {
    background-color: black;
 
  }
+
+.row img{
+  margin-top: 17px;
+}
